@@ -10,4 +10,4 @@ for number in range(1,101):
     modulus = number % 3
     if modulus == 0:
         divisibleBy3 =  "Fizz"
-    print(number, total, divisibleBy3
+    print(number, total, divisibleBy3)
