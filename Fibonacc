@@ -1,8 +1,8 @@
 # ##############################################
 # Fibonacci numbers with WHILE
 # ############################################
-num_terms = 10
-fibonacci = [0, 1]
+num_terms = 20
+fibonacci = [0,1]
 
 while len(fibonacci) < num_terms:
   next_term = fibonacci[-1] + fibonacci[-2]
