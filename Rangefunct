@@ -1,0 +1,13 @@
+
+
+###############################################
+# Rangefuncton with For Loop
+###############################################
+total = 0
+for number in range(1,101):
+    divisibleBy3 = ""
+    total += number
+    modulus = number % 3
+    if modulus == 0:
+        divisibleBy3 =  "Fizz"
+    print(number, total, divisibleBy3
