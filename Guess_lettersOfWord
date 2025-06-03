@@ -51,5 +51,5 @@ while not game_over:
     #    game_over = True
     #    print(f"After {guess_count} wrong tries, You LOST !")
 
-    print(Stages[lives])
+    print(stages[lives])
         
