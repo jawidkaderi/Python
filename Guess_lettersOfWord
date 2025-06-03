@@ -22,7 +22,7 @@ while not game_over:
     guess = input("Guess a letter for this word ["+chosen_word+"]: ").lower()
     
     display = ""
-    guess_count -+ 1
+    guess_count -= 1
     
     for letter in chosen_word:
         if letter == guess:
