@@ -2,59 +2,8 @@
 # Guess letters of Words
 # ###################################
 import random
-Stages = ['''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========''','''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========''','''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========''','''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''','''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========''','''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========''','''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-========='''
-]
-
-word_list = ["aardvark", "baboon", "camel"]
+from List_Ascii import stages
+from List_Word import word_list
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
