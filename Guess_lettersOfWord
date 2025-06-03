@@ -17,27 +17,32 @@ print(placeholder)
 
 game_over = False
 correct_letter = []
-guess_count = 6
+guess_count = 0
+
 
 while not game_over:
     guess = input("Guess a letter for this word ["+chosen_word+"]: ").lower()
-    
+    guess_count += 1
+
     display = ""
-    guess_count -= 1
-    
+        
     for letter in chosen_word:
         if letter == guess:
             display += letter
-            print(display)
+            #print(display)
             correct_letter.append(letter)
-            print(correct_letter)
+            #print(correct_letter)
         elif letter in correct_letter:
             display += letter
         else:
             display += "-"
             
-    #print(display)
+    print(display)
     
-    if"-" not in display:
+    if "-" not in display:
         game_over = True
-        print("You WON!")
+        print(f" You WON, after {guess_count} good tries!")
+    elif guess_count == 6:
+        game_over = True
+        print(f"After {guess_count} wrong tries, You LOST !")
+        
