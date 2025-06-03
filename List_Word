@@ -1,1 +1,1 @@
-word_list = ["aardvark", "baboon", "camel"]
+words = ["aardvark", "baboon", "camel"]

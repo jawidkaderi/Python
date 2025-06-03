@@ -3,9 +3,9 @@
 # ###################################
 import random
 from List_Ascii import stages
-from List_Word import word_list
+from List_Word import words
 
-chosen_word = random.choice(word_list)
+chosen_word = random.choice(words)
 print(chosen_word)
 
 placeholder = ""
